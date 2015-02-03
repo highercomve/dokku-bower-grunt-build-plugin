@@ -9,6 +9,8 @@ PATH="\$PATH:\$new_path" &&
 PATH="\$PATH:\$(npm bin)" &&
 npm install grunt &&
 npm install grunt-cli &&
+npm install findup-sync &&
+npm link findup-sync &&
 npm install bower &&
 npm update &&
 bower --allow-root install &&
